@@ -17,7 +17,7 @@ namespace LV5
         }
         public void AddNote(Note note) {
             note.Theme = this.theme;
-            this.notes.Add(note); 
+            this.notes.Add(note=; 
         }
         public void ChangeTheme(ITheme theme)
         {
